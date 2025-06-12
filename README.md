@@ -33,9 +33,9 @@ patient’s primary insurance had already paid for it, we’re not going to know
 the paid amounts on the two transactions to yield the “final action” net paid amount, which is $0.
 You look for another one of these two-extra-digit claim numbers, and find one with claim_num value
 of 2239G230928A1, and so you search for records whose claim_num starts with 2239G230928 and
-get the following:\
+get the following:
 
-**See raw_claim_trx.csv**\
+**See raw_claim_trx.csv**
 
 Generally, this looks like a case where the original claim was amended via a reversal (to back out the
 original payments) and then was adjusted to apply the updated details. But it also looks like some of
