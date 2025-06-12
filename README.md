@@ -18,8 +18,8 @@ only eleven digits, and the only two-digit “suﬃxes” you see on the thirtee
 R[x] and A[x], which might mean something like “the [x]th reversal” and “the [x]th adjustment”.
 So you search for records whose claim_num value starts with 290E2942842:
 
-member_num servdt proc_cd claim_num line_num trxdt paid_amt/n
-345983 20210215 G0463 290E2942842 1 20210302 334.00/n
+member_num servdt proc_cd claim_num line_num trxdt paid_amt \
+345983 20210215 G0463 290E2942842 1 20210302 334.00 \
 345983 20210215 G0463 290E2942842R1 1 20210516 -334.00
 
 This makes sense! It’s a little weird that the data source is appending a 2-character substring
