@@ -1,5 +1,5 @@
 # health_claim_sql
-A recent SQL health claim challenge data set and questionaire 
+SQL health claim analysis
 
 **Part I (Question 1)**
 You’ve just received an extract of medical claims data from a new health plan and are trying to make
